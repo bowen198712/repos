@@ -1,1 +1,1 @@
-Please read for some information
+SWE525 Version Control
