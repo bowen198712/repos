@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<title>register page</title>
+	<meta charset = 'UTF-8' />
+	<style type="text/css">
+		body
+		{
+			width:60%;
+			margin:auto;
+			font-style: italic;
+			font-weight: bold;
+		}
+	</style>
+	
+	<body>
+	<div style="background-color:lightyellow">  
+      <a name="top">
+        <h1 align="center" style="color:rgb(48,66,66)"><big><big>Registration Page</big></big></h1>
+        <h2 align ="center" style="color:rgb(193,64,91)"><b><i>(This is my lab13)</h2></i></b>
+    </div>
+        <hr align="left" width="100%" noshade color="black">
+		
+		<header>
+			<h1 align="center"><i><b>Registration form</b></i></h1>
+		</header>
+		
+		<section style="background-color:aliceblue">
+			<form name="registration" action="http://itu.lewebcafe.com/csc525/form.php" method="post" align="center">
+				<fieldset>
+                   <legend>Contact Info: </legend>
+                   <label>Name:
+                     <input type="text" name="name" id="name">
+                   </label>
+                   <br/>
+                   <label>Address:
+                     <input type="text" name="address" id="address">
+                   </label>
+                   <br/>
+                  <label>Email:
+                     <input type="email" name="email" id="email">
+                  </label>
+                  <br/>
+                  <label>Phone:
+                     <input type="tel" name="phone" id="phone">
+                  </label>
+                  <br/>
+                  <label>Website:
+                     <input type="url" name="website" id="website">
+                 </label>
+                 <br/>
+                  <label for="myBirthday">Birthday:</label>
+                     <input type="date" name="myBirthday" id="myBirthday">
+                 <br/>
+                </fieldset>
+                <br/>
+				<fieldset>
+					 <legend>Additional info: </legend>
+                    <label for="mycolor">Color:
+                       <input type="color" name="mycolor" id="mycolor">
+                 </label>
+                 <br/>
+                  <br/>
+                   <br/>
+                    <label>Nationality:
+                    </label>
+                        <input type="text" name="nation" id="nation" list="nations">
+                            <datalist id="nations">
+                                <option value="China">
+                                <option value="USA">
+                                <option value="Japan">
+                                <option value="UK">
+                                <option value="Span">
+                                <option value="Canada">
+                               	<option value="India">
+                               	<option value="Mexico">
+                            </datalist>
+                    <br/>
+                    <br/>
+                    <br/>
+				Comments:
+				<textarea name="comment" rows="5" cols="20" wrap="soft">
+				</textarea>
+				<br/>
+				<br/>
+				<input type="submit" name="SubmitButton" value="Submit" />
+				<input type="reset" name="ResetButton" value="Reset">
+				</fieldset>
+			</form>
+		</section>		
+	</body>
+</html>
