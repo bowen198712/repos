@@ -1,6 +1,6 @@
 public class SomeClass{
 	public void thoughtForTheDay(){
-	System.out,println("I cound not repair your brakes, so I made your horn louder");
+	System.out,println("on the other hand, you have different fingers");
 	}
 
 
